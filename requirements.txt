@@ -1,0 +1,18 @@
+# requirements.txt
+
+# Anthropic Claude API client
+anthropic
+
+# Google API client — used for Gmail, Sheets, and Drive access
+google-api-python-client
+
+# Google OAuth2 authentication and token handling
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# PDF text extraction — used in contracts_reader.py and examples_reader.py
+PyMuPDF
+
+# Environment variable loading from .env file
+python-dotenv

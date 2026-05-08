@@ -1,0 +1,6 @@
+.env
+credentials.json
+token.pickle
+*.pyc
+schedule_ereny_and_mattew_raw.txt
+temp_data/
