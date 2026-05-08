@@ -390,7 +390,7 @@ def get_emails_by_label(creds, label_name, max_results=50, fetch_attachments=Tru
 
     for i, thread in enumerate(threads, 1):
         thread_messages = get_full_thread(service, thread['id'])
-        print(f"   🧵 Thread {i}/{len(threads)}: {len(thread_messages)} message(s)", end="")
+        print(f"Thread {i}/{len(threads)}: {len(thread_messages)} message(s)", end="")
 
         for message in thread_messages:
             parsed = parse_message(service, message, fetch_attachments=fetch_attachments)
